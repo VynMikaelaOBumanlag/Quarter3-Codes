@@ -1,0 +1,22 @@
+Scenario: 
+-Me and my 4 friends want to track our weekly test scores across 3 subjects.
+
+What the 2D Array Represents:
+-Rows: Each person (me, friend 1, friend 2, friend 3, friend 4, friend 5)
+-Columns: our weekly test scores in 3 subjects (Math, English, Science
+
+Sample 2D Array:
+scores = [
+    [85, 88, 90],   # Me
+    [78, 82, 80],   # Friend 1
+    [92, 90, 94],   # Friend 2
+    [88, 85, 87],   # Friend 3
+    [80, 83, 79]    # Friend 4
+]
+
+print(scores[2][2])  #2 Lines of code that prints a specific value or updates it:
+scores[0][1] = 90
+
+I chose this data set because as a student of my own, i know its common between us to compare scores, even me and my friends do that, 2D arrays just happen to make it easier to do
+The 2D array helps organize data by seperating people into rows and subjects into columns. Its easy to acess, update and compare rows because of this structure. Theres also functions
+we can use in Pythton to simplify calculating averages and finding the highest scores.
