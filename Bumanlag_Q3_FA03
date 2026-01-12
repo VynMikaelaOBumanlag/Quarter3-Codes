@@ -1,0 +1,20 @@
+scores = [
+    [85, 88, 90],   # Me
+    [78, 82, 80],   # Friend 1
+    [92, 90, 94],   # Friend 2
+    [88, 85, 87],   # Friend 3
+    [80, 83, 79]    # Friend 4
+]
+
+for i in range(len(scores)):
+    print("Scores:", scores[i])
+    total = sum(scores[i])
+    average = total / len(scores[i])
+    print("Total:", total, "Average:", average)
+
+Short explanation:
+-Using a 2D array made analyzing the data easier for me because all the test scores were organized in
+one structure. Each row representing a person and each column representing a subject made it very easy
+to perform operations and calculate totals averages per student. I found printing each row to be the easiest
+in summarizing the data. Overall, using a 2D array to organize the test scores of me and my friends helped me 
+compare them easier, faster and in a more organized manner.
